@@ -7,31 +7,33 @@
     <title>案場訪談</title>
     <link rel="stylesheet" href="./public/css/article-style.css">
     <meta property="og:image" content="./public/img/theme1.png">
+    
+</head>
+
+<body>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172726655-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172726655-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
         gtag('config', 'UA-172726655-1');
-    </script> -->
-</head>
-
-<body>
+    </script>
     <!-- Load Facebook SDK for JavaScript -->
     <!-- <div id="fb-root"></div> -->
-    <script>(function (d, s, id) {
+    <!-- <script>(function (d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
             if (d.getElementById(id)) return;
             js = d.createElement(s); js.id = id;
             js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
             fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
+        }(document, 'script', 'facebook-jssdk'));</script> -->
     <div class="arti-box box">
         <div class="link-fixed-box">
             <div class="link-box">
                 <button id="back"><a href="./index.html"><img src="./public/img/back.png" alt=""></a></button>
-                <button class="fb-share-button" data-href="https://yl3030.github.io/EDM-test/article1.html" data-layout="button_count" id="fb-root"><img src="./public/img/facebook.png" alt="facebook"></button>
+                <!-- <button class="fb-share-button" data-href="https://yl3030.github.io/EDM-test/article1.html" data-layout="button_count" id="fb-root"><img src="./public/img/facebook.png" alt="facebook"></button> -->
+                <button data-social="facebook" id="fb"><img src="./public/img/facebook.png" alt="facebook"></button>
                 <button>
                     <div class="line-it-button " data-lang="zh_Hant" data-type="share-c" data-ver="3"
                         data-url="https://yl3030.github.io/EDM-test/article1.html" data-color="default"
@@ -73,7 +75,7 @@
     </div>
 
     <!-- goodshare.js v4.1.2 -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/goodshare.js/4.1.2/goodshare.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/goodshare.js/4.1.2/goodshare.min.js"></script>
 
     <!-- line share -->
     <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async"
