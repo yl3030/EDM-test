@@ -63,7 +63,7 @@ button#back {
 	border-radius: 30px;
 }
 
-button#fb-root img {
+button#fb img {
 	width: 100%;
 }
 
@@ -187,6 +187,10 @@ button#fb-root img {
 	padding-bottom: 50px;
 }
 
+.arti-box p a:hover {
+	color: #69ae81;
+}
+
 .box img {
 	width: 80%;
 	display: block;
@@ -217,12 +221,19 @@ button#fb-root img {
 .arti-box table {
 	margin: 0 auto 10px;
 	width: 80%;
-	border-radius: 5px;
+}
+
+.arti-box#a4 table {
+	border: 0.5px solid #96caa8;
 }
 
 .arti-box td {
 	text-align: center;
 	padding: 8px 20px;
+}
+
+.arti-box#a4 td {
+	border: 0.5px solid #96caa8;
 }
 
 .arti-box td.description {
@@ -250,11 +261,11 @@ td#price {
 }
 
 td#explain {
-	width: 40%;
+	width: 37%;
 }
 
 td#example {
-	width: 40%;
+	width: 43%;
 }
 
 .arti-box .table-content td {
@@ -468,6 +479,7 @@ td#example {
 	#banner4-box {
 		grid-template-columns: repeat(1, 1fr);
 		padding: 20px;
+		height: auto;
 	}
 
 	#banner4-pic {
